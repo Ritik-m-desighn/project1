@@ -1,0 +1,199 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Navigation */
+  header {
+    background-color: #121212; /* Dark theme */
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  .nav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav .logo i {
+    font-size: 30px;
+  }
+  .nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    font-size: 18px; /* Text size */
+    transition: color 0.3s ease;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* space between items */
+  }
+  
+  .nav ul li {
+    display: inline;
+  }
+  
+  .nav ul li a:hover {
+    color: #63E6BE; /* Change color on hover */
+  }
+  /* Main Section */
+  .main {
+    padding: 2rem;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+  }
+  
+  .content img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .text h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #63E6BE;
+    text-transform: uppercase;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .songs {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #63E6BE;
+    color: #121212;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .songs:hover {
+    transform: scale(1.05);
+    background-color: #52d3a9;
+  }
+  
+  /* Audio Controller Section */
+  .controler {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #121212;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  audio {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Responsive Design */
+
+  
+    .text h1 {
+      font-size: 1.5rem;
+    }
+  
+    .songs {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+    }
+  
+    audio {
+      max-width: 100%;
+    }
+    .contact {
+      background-color: gray;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 50%;
+  }
+  
+  .contact h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+  }
+  
+  .contact p {
+      font-size: 18px;
+      margin-bottom: 20px;
+  }
+  /* Footer Styling */
+  footer {
+      background-color: black;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+  }
+  
+  .footer-content h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+  
+  .footer-content p {
+      font-size: 16px;
+      margin-bottom: 20px;
+  }
+  
+  .socials {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+  }
+  
+  .socials li {
+      display: inline;
+  }
+  
+  .socials a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s;
+  }
+  
+  .socials a:hover {
+      color:  #52d3a9; /* Light blue hover effect */
+  }
+  
+  .footer-bottom {
+      margin-top: 20px;
+      font-size: 14px;
+      border-top: 1px solid #444;
+      padding-top: 15px;
+  }
+  
+  .footer-menu a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s;
+  }
+  
+  .footer-menu a:hover {
+      color: #52d3a9;
+  }
+  
