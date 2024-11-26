@@ -16,9 +16,8 @@
 
         </div>
         <ul>
-          <li>
-            <i class="fa-solid fa-magnifying-glass" id="search" style="color: #fafafa;"></i>
-          </li>
+         
+          <i class="fa-solid fa-magnifying-glass" id="search" style="color: #fafafa;" onclick="location.href='#button-container'; alert('only these musics present currently')"></i>
           <li>
             <a href="https://ritkportfolio.netlify.app/"> home</a>
           </li>
@@ -30,26 +29,25 @@
       <main>
         <div class="main">
           <div class="content">
-            <img src="Screenshot 2024-11-20 220312.png" alt=""><div class="text"><h1>
-              you are listening my favourite songs 
+            <img src="Screenshot 2024-11-20 220312.png" alt=""><div class="text"><h1> welcome to the music world 
             </h1></div>
-            <div class="button-container">
-              <button class="songs">Millionaire by Honey Singh</button>
-              <button class="songs">Millionaire by Honey Singh</button>
-              <button class="songs">Millionaire by Honey Singh</button>
-              <button class="songs">Millionaire by Honey Singh</button>
-              <button class="songs">Millionaire by Honey Singh</button>
-              <button class="songs">Millionaire by Honey Singh</button>
-              <button class="songs">Millionaire by Honey Singh</button>
-              <button class="songs">Millionaire by Honey Singh</button>
-              <button class="songs">Millionaire by Honey Singh</button>
+            <div class="button-container" id="button-container">
+              <button class="songs" data-url="random.mp3">random bgm</button>
+              <button class="songs" data-url="relaxing-piano-music-267048.mp3">relaxing bgm</button>
+              <button class="songs" data-url="happy-birthday-254480.mp3">birthday </button>
+              <button class="songs" data-url="upbeat-pop-intro-logo-3-201068.mp3"> beats</button>
+              <button class="songs" data-url="evening-glow-soft-piano-music-243818.mp3">soft bgm</button>
+              <button class="songs" data-url="background-horror-tension-171540.mp3">horror bgm</button>
             </div>
           </div>
           
       </main>
       <main>
         <div class="controler">  
-          <audio id="audio" src="your-song-file.mp3" controls></audio>
+          <audio id="audioPlayer" controls>
+            <source id="audioSource" src="random.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
     </div>
       
       </main>
@@ -74,5 +72,5 @@
 
     </footer>
     
-<script src="index.js"></script>
+<script src="my.js"></script>
 </html>  <p>

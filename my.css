@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +6,8 @@
     font-family: 'Arial', sans-serif;
   }
   
-  /* Header Navigation */
   header {
-    background-color: #121212; /* Dark theme */
+    background-color: #121212; 
     padding: 1rem 2rem;
     color: white;
   }
@@ -21,20 +20,31 @@
     align-items: center;
   }
 
-  .nav .logo i {
-    font-size: 30px;
+ i {
+    font-size: 20px;
   }
+  i:hover{
+    cursor: pointer;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: inline-block; 
+  }
+  
   .nav ul li a {
-    text-decoration: none; /* Remove underline */
-    color: white; /* Text color */
-    font-size: 18px; /* Text size */
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px; 
     transition: color 0.3s ease;
   }
   
   .nav ul {
     list-style-type: none;
     display: flex;
-    gap: 20px; /* space between items */
+    gap: 20px; 
   }
   
   .nav ul li {
@@ -42,9 +52,8 @@
   }
   
   .nav ul li a:hover {
-    color: #63E6BE; /* Change color on hover */
+    color: #63E6BE;
   }
-  /* Main Section */
   .main {
     padding: 2rem;
     background-color: #1e1e1e;
@@ -85,7 +94,7 @@
   }
   
   .songs:hover {
-    transform: scale(1.05);
+    transform: scale(1.3);
     background-color: #52d3a9;
   }
   
